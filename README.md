@@ -1,6 +1,7 @@
 # Material Design Text Input
 
 Textual input component for React Native (iOS & Android).
+{ RTL support }
 
 ## Usage
 
@@ -71,6 +72,7 @@ onFocus               | Function
 onBlur                | Function
 onChangeText          | Function
 onContentSizeChange   | Function
+isRTL                 | Bool               | `false`
 
 ### Underline
 
