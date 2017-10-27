@@ -6,12 +6,13 @@ export default class App extends Component {
   state = {
     productName: '',
     price: '',
+    rtl: '',
     multilineText:
       'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.'
   }
 
   render() {
-    let { productName, price, multilineText } = this.state
+    let { productName, price, multilineText, rtl } = this.state
 
     return (
       <View style={styles.layout}>
@@ -30,6 +31,12 @@ export default class App extends Component {
             placeholder="$5,999.00"
             value={price}
             onChangeText={price => this.setState({ price })}
+          />
+          <TextInput
+            isRTL
+            label="راست به چپ"
+            value={rtl}
+            onChangeText={rtl => this.setState({ rtl })}
           />
           <TextInput
             label="The Matrix"
