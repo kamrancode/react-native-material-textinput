@@ -1,21 +1,21 @@
 {
   "name": "react-native-material-textinput",
   "version": "1.1.0",
-  "description": "Textual input component for React Native",
+  "description": "Textual input component for React Native with RTL support",
   "license": "MIT",
   "author": {
-    "name": "Maxim Postnikov",
-    "url": "https://github.com/maximpostnikov",
-    "email": "itsmaximpostnikov@gmail.com"
+    "name": "Kamran Ghoochanian",
+    "url": "https://github.com/kamrancode",
+    "email": "kamran.ghoochanian@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/perushevandkhmelev-agency/react-native-material-textinput/issues"
+    "url": "https://github.com/kamrancode/react-native-material-textinput/issues"
   },
-  "homepage": "https://github.com/perushevandkhmelev-agency/react-native-material-textinput",
-  "readme": "https://github.com/perushevandkhmelev-agency/react-native-material-textinput#readme",
+  "homepage": "https://github.com/kamrancode/react-native-material-textinput",
+  "readme": "https://github.com/kamrancode/react-native-material-textinput#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:perushevandkhmelev-agency/react-native-material-textinput.git"
+    "url": "git@github.com:kamrancode/react-native-material-textinput.git"
   },
   "main": "lib/Input.js",
   "keywords": [
@@ -26,7 +26,8 @@
     "android",
     "textfield",
     "textinput",
-    "material-design"
+    "material-design",
+    "rtl"
   ],
   "dependencies": {
     "prop-types": "^15.5.10"

@@ -1,7 +1,8 @@
 # Material Design Text Input
 
-Textual input component for React Native (iOS & Android).
-{ RTL support }
+## Textual input component for React Native (iOS & Android) { RTL support }
+
+### Main package is here (https://github.com/perushevandkhmelev-agency/react-native-material-textinput)
 
 ## Usage
 
@@ -98,7 +99,7 @@ Other [TextInput](https://facebook.github.io/react-native/docs/textinput.html#pr
 ## Example
 
 ```bash
-git clone https://github.com/perushevandkhmelev-agency/react-native-material-textinput
+git clone https://github.com/kamrancode/react-native-material-textinput
 cd react-native-material-textinput/example
 yarn # or npm install
 yarn start # or npm start
